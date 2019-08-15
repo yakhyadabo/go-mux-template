@@ -26,7 +26,8 @@ sudo tar -xvf /tmp/go1.12.6.linux-amd64.tar.gz -C /usr/local
 sudo chown -R root:root /usr/local/go
 ----
 Set ENV variables
-command line or ~/.profile or ~/.bashrc ... 
+
+You can either use command line, or edit _~/.profile_, or _~/.bashrc_ ... 
 [source,shell]
 ----
 # Go Root
@@ -43,19 +44,23 @@ Load the new changes
 ----
 source ~/.profile
 ----
-
+Or
+[source,shell]
+----
+source ~/.bashrc
+----
 Run the program
 [source,go]
 ----
-go run hello-world.go
+go run go-mux-template.go
 ----
 Create binary
 [source,go]
 ----
-go build hello-world.go
+go build go-mux-template.go
 ----
 Run the binary
 [source,go]
 ----
-./hello-world.go
+./go-mux-template.go
 ----
