@@ -1,0 +1,9 @@
+*
+!.gitattibutes
+!.gitignore
+!.env
+!*.go
+!README.adoc
+!Makefile
+!Dockerfile
+!*/
