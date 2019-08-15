@@ -2,7 +2,7 @@ package controller
 
 import (
 	"net/http"
-	"github.com/yakhyadabo/go-rest-template/src/model"
+	"github.com/yakhyadabo/go-mux-template/model"
 	"encoding/json"
 	"strconv"
 	"math/rand"
