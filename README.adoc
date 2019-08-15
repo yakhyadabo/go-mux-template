@@ -26,7 +26,7 @@ sudo tar -xvf /tmp/go1.12.6.linux-amd64.tar.gz -C /usr/local
 sudo chown -R root:root /usr/local/go
 ----
 Set ENV variables
-command line or ~/.profile ~/.bashrc ... 
+command line or ~/.profile or ~/.bashrc ... 
 [source,shell]
 ----
 # Go Root
@@ -59,4 +59,3 @@ Run the binary
 ----
 ./hello-world.go
 ----
-
