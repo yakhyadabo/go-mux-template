@@ -38,3 +38,25 @@ export GOPATH=$HOME/projects/golang
 # PATH
 export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 ----
+Load the new changes
+[source,shell]
+----
+source ~/.profile
+----
+
+Run the program
+[source,go]
+----
+go run hello-world.go
+----
+Create binary
+[source,go]
+----
+go build hello-world.go
+----
+Run the binary
+[source,go]
+----
+./hello-world.go
+----
+
