@@ -64,3 +64,18 @@ Run the binary
 ----
 ./go-mux-template.go
 ----
+Get all employees
+[source,go]
+----
+curl http://localhost:8000/api/employees
+----
+Create employee
+[source,go]
+----
+curl -X POST -H "Content-Type: application/json" -d '{"id":"400","firstname":"FN_400","lastname":"LN_400","company":{"id":"400","name":"N_400"}}' http://localhost:8000/api/employee
+----
+Get employee with id 400
+[source,go]
+----
+curl http://localhost:8000/api/employee?id=400
+----
