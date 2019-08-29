@@ -3,6 +3,8 @@
 !.gitignore
 !.env
 !*.go
+!go.mod
+!go.sum
 !README.adoc
 !Makefile
 !Dockerfile
