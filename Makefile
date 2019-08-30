@@ -1,10 +1,10 @@
 default: build
 
 build: 
-	go build go-mux-template.go
+	go build main.go
 
 run: 
-	go run go-mux-template.go
+	go run main.go
 
 install:	
-	go install go-mux-template.go
+	go install main.go
